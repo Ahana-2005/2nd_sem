@@ -1,4 +1,4 @@
-//Write a c program to find the smallest element of an array.
+//Write a c program to print the memory address of the smallest array element.
 #include <stdio.h>
 int main()
 {
@@ -16,8 +16,11 @@ int main()
     {
         if (arr[i]<smallest)
         {
-            smallest=arr[i];
+            smallest=i;
+        }
+        else{
+            smallest=0;
         }
     }
-    printf("The smallest element in the array is: %d", smallest);
+    printf("The index of the smallest element in the array is: %d", smallest);
 }
