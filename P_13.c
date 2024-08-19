@@ -8,7 +8,7 @@ int  main()
     int a[n];
     for (int i = 0; i < n; i++) {
         printf("Enter the element in index %d:",i);
-        scanf("%d",a[i]);
+        scanf("%d",&a[i]);
     }
     printf("The array is:");
     for (int i = 0; i <n ;i++) {

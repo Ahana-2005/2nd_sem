@@ -4,7 +4,7 @@ int main()
 {
     int n;
     int sum1=0,sum2=0;
-    printf("The size of the array:");
+    printf("Enter size:");
     scanf("%d",&n);
     int arr[n],brr[n];
     for (int i = 0; i < n; i++)
@@ -18,13 +18,9 @@ int main()
         scanf("%d",&brr[i]);
     }
     for (int i = 0; i < n; i++)
-    {
         sum1+=arr[i];
-    }
     for (int i = 0; i < n; i++)
-    {
         sum2+=arr[i];
-    }
     if (sum1==sum2)
         printf("The sum of the arrays are equal.");
     else

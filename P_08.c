@@ -1,8 +1,9 @@
-//Write a program in array to search a particular element.
+//Write a program in c to search a particular element in array.
 #include <stdio.h>
 int main()
 {
-    int n,a,count=0;
+    int n,a;
+    int count=0;
     printf("Enter size:");
     scanf("%d",&n);
     int arr[n];
