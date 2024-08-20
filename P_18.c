@@ -19,5 +19,5 @@ int main() {
         return 1;
     }
     factorial(&n, &fact);
-    printf("The factorial of %d is %lld\n", n, fact);
+    printf("The factorial of %d is %d\n", n, fact);
 }

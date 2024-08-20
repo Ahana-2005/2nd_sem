@@ -1,7 +1,5 @@
 //Write a C program to check a number is prime or not using function with pointer.
 #include <stdio.h>
-
-// Function prototype
 void checkPrime(int *n, int *isPrime)
 {
     *isPrime = 1;
@@ -21,8 +19,7 @@ void checkPrime(int *n, int *isPrime)
 }
 int main()
 {
-    int n;
-    int p;
+    int n,p;
     printf("Enter a number to check if it's prime: ");
     scanf("%d", &n);
     checkPrime(&n, &p);
