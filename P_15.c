@@ -18,9 +18,6 @@ int main()
         {
             smallest=i;
         }
-        else{
-            smallest=0;
-        }
     }
     printf("The index of the smallest element in the array is: %d", smallest);
 }
